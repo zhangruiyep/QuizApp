@@ -46,6 +46,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            style="@style/Question"
                             android:text="@string/question_1" />
 
                         <RadioGroup
@@ -56,51 +57,60 @@
                             <RadioButton
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
+                                style="@style/option"
                                 android:text="@string/ManUtd" />
 
                             <RadioButton
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
+                                style="@style/option"
                                 android:text="@string/RM" />
 
                             <RadioButton
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
+                                style="@style/option"
                                 android:text="@string/Juv" />
                         </RadioGroup>
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            style="@style/Question"
                             android:text="@string/question_2" />
 
                         <CheckBox
                             android:id="@+id/q2_mu_checkbox"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
+                            style="@style/option"
                             android:text="@string/ManUtd" />
 
                         <CheckBox
                             android:id="@+id/q2_asn_checkbox"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
+                            style="@style/option"
                             android:text="@string/asn" />
 
                         <CheckBox
                             android:id="@+id/q2_liv_checkbox"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
+                            style="@style/option"
                             android:text="@string/liv" />
 
                         <CheckBox
                             android:id="@+id/q2_leeds_checkbox"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
+                            style="@style/option"
                             android:text="@string/leeds" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            style="@style/Question"
                             android:text="@string/question_3" />
 
                         <EditText
@@ -117,6 +127,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 android:onClick="commit"
+                android:textAllCaps="true"
+                style="@style/Question"
                 android:text="@string/commit_button_string" />
 
         </LinearLayout>

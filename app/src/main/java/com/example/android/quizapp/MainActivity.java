@@ -23,7 +23,8 @@ public class MainActivity extends AppCompatActivity {
         int retVal = 0;
         RadioGroup q1_rg = (RadioGroup) findViewById(R.id.q1_radio_group);
         RadioButton chosen = (RadioButton) findViewById(q1_rg.getCheckedRadioButtonId());
-        if (chosen.getText().toString().equals(getResources().getString(R.string.ManUtd))) {
+        if ((null != chosen) &&
+                (chosen.getText().toString().equals(getResources().getString(R.string.ManUtd)))) {
             retVal = 30;
         }
 
