@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="name">Name</string>
+    <string name="commit_button_string">commit</string>
+    <string name="question_1">Which Club comes from England?</string>
+    <string name="ManUtd">Manchester United</string>
+    <string name="RM">Real Madrid</string>
+    <string name="Juv">Juventus</string>
+    <string name="question_2">Which Clubs have won European Champions League?</string>
+    <string name="asn">Arsenal</string>
+    <string name="liv">Liverpool</string>
+    <string name="leeds">Leeds United</string>
+    <string name="question_3">Which Club does David Beckham start career?</string>
+    <string name="your_score_is">:\nYour Score is </string>
+    <string name="ok">OK</string>
+</resources>

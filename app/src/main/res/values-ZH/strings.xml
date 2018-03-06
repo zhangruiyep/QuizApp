@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="name">姓名</string>
+    <string name="commit_button_string">提交</string>
+    <string name="question_1">哪家俱乐部来自英格兰？</string>
+    <string name="ManUtd">曼彻斯特联</string>
+    <string name="RM">皇家马德里</string>
+    <string name="Juv">尤文图斯</string>
+    <string name="question_2">哪家俱乐部曾赢得欧洲冠军联赛？</string>
+    <string name="asn">阿森纳</string>
+    <string name="liv">利物浦</string>
+    <string name="leeds">利兹联</string>
+    <string name="your_score_is">:\n你的得分是</string>
+    <string name="ok">确定</string>
+</resources>
